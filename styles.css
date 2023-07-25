@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/*Desktop / Global View */
+
+body {
+  font-family: 'Borel', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #edadad;
+}
+
+.col {
+  float:initial; /*by me */
+  
+}
+
+.col-lg {
+  width: 31.3%;
+}
+
+.col-lg img {
+  width: 300px;
+  height: 300px;
+  display: block;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+
+#menu {
+  float: right;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a {
+  text-decoration: none;
+  color:rgb(145, 34, 34);
+  padding: 8px;
+  font-size: 18px;
+
+}
+
+header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hero {
+  background-image: url(images/background.jpg);
+  padding: 52px 0px 72px 72px;
+  background-size: cover;
+}
+
+.subheading {
+  color:rgb(145, 34, 34);
+  font-weight: 800;
+  font-size: 33px;
+  margin-bottom: -54px;
+}
+
+h1 {
+  color: rgb(145, 34, 34);
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: -5px;
+}
+
+.heading-body-copy {
+  color:rgb(145, 34, 34);
+  margin-right: 20%;
+}
+
+.lets-talk {
+  background-color: rgb(233, 129, 137);
+  padding: 8px 30px;
+  text-decoration: none;
+  color:rgb(145, 34, 34);
+}
+
+
+
+
+/*Tablet View*/
+@media (max-width: 768px) {
+  h1 {
+    color:rgb(197, 106, 16);
+  }
+
+  .subheading {
+    color: rgb(197, 106, 16);
+  }
+
+  #menu li {
+    display: block;
+    text-align: right;
+
+    .col-md {
+      width: 48%;
+    }
+  }
+}
+
+
+
+
+
+
+
+/*Mobile view*/
+@media (max-width: 480px) {
+  h1 {
+    color:#ea6907;
+  }
+
+  .subheading {
+    color:#ea6907;
+  }
+
+  .slicknav_menu {
+    display: block;
+  }
+  #menu {
+    display: none;
+  }
+  .col-sm {
+    width: 100%;
+  }
+  .col {
+    padding: 0%;
+  }
+}
