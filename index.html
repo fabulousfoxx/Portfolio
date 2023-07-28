@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-  <meta charset="UTF-8">
-  <title>Fabulous Fox Design Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="slicknav.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fabulous Fox Design Portfolio</title>
+    
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+      <!-- plugin jQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <!-- bootstrap plugin -->
+      <script src="https://kit.fontawesome.com/07cd4ef2fc.js" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+    
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/slicknav.css">
   </head>
 
   <body>
     <header>
-      <img src="images/logo3.jpg" alt="Logo" height="100px">
+      <img src="images/logo3.jpg" class="rounded-circle fox"  alt="Logo" height="100px">
       <ul id="menu">
-      <li><a href="#">Portfolio</a></li>
+      <li><a href="index.html">Portfolio</a></li>
       <li><a href="#">About Me</a></li>
       <li><a href="contact-me.html">Contact Me</a></li>
       </ul>
@@ -25,10 +37,10 @@
       <div class="row">
         <div class="col">
           <div class="hero">
-            <p class="subheading">I'm a</p>
+            <h3 >I'm a </h3>
             <h1>Fullstack Developer</h1>
             <p class="heading-body-copy">Passionate to code with tea during cozy evenings, in love with stars and nature</p>
-            <a href="#" class="lets-talk">Let's talk</a>
+            <a href="#" class="lets-talk rounded-pill">Let's talk</a>
           </div>
         </div>
       </div>
@@ -55,5 +67,8 @@
         $('#menu').slicknav();
       });
     </script>
+
+
+
   </body>
 </html>
